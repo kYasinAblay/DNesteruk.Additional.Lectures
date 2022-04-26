@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32407.343
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DuckTyping.Mixins", "DuckTyping.Mixins\DuckTyping.Mixins.csproj", "{106C0C67-14B8-4E85-95BA-C10CBD165260}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DuckTyping.Mixins", "DuckTyping.Mixins\DuckTyping.Mixins.csproj", "{106C0C67-14B8-4E85-95BA-C10CBD165260}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "An_ASCII_String", "An_ASCII_String\An_ASCII_String.csproj", "{A05A1D9F-D77F-4FCD-BB60-4C2111540655}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "An_ASCII_String", "An_ASCII_String\An_ASCII_String.csproj", "{A05A1D9F-D77F-4FCD-BB60-4C2111540655}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Local.InversionofControl", "Local.InversionofControl\Local.InversionofControl.csproj", "{25BDB625-22C4-4A75-8723-D5A688A724F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Local.InversionofControl", "Local.InversionofControl\Local.InversionofControl.csproj", "{25BDB625-22C4-4A75-8723-D5A688A724F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeyondTheElvisOperator", "BeyondTheElvisOperator\BeyondTheElvisOperator.csproj", "{7892A81A-345E-4A3B-8692-F23ED0EE91F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BeyondTheElvisOperator", "BeyondTheElvisOperator\BeyondTheElvisOperator.csproj", "{7892A81A-345E-4A3B-8692-F23ED0EE91F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQRS_and_EventSourcing", "CQRS_and_EventSourcing\CQRS_and_EventSourcing.csproj", "{1D318599-0E94-4857-AD94-015C4F3D9DD4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{7892A81A-345E-4A3B-8692-F23ED0EE91F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7892A81A-345E-4A3B-8692-F23ED0EE91F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7892A81A-345E-4A3B-8692-F23ED0EE91F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D318599-0E94-4857-AD94-015C4F3D9DD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D318599-0E94-4857-AD94-015C4F3D9DD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D318599-0E94-4857-AD94-015C4F3D9DD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D318599-0E94-4857-AD94-015C4F3D9DD4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
